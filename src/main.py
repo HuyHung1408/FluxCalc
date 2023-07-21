@@ -159,6 +159,5 @@ root.bind("=", lambda e:btnEqualsInput())
 root.bind("(", lambda e:btnClick("("))
 root.bind(")", lambda e:btnClick(")"))
 root.bind('<Control-m>', setmica)
-#endregion
 
 root.mainloop()
